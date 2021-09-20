@@ -12,7 +12,7 @@ As starting point I used the code published by Olivier Burri on the ImageJ maili
 
 ## Download code
 
-Select the file "RandomPointsTo_Objects.ijm" and select "Raw" from the right side menu. Select all the code and copy and paste this into the text editor from ImageJ/Fiji (File > New > Text Window). Alternatively, you can download all files via the green "Code" button as a ZIP file and extract the macro file. Save this file in your macros sub-folder within the ImageJ or Fiji folder with the name RandomPointsTo_Objects.ijm.
+Select the file "RandomDotsTo_Objects.ijm" and select "Raw" from the right side menu. Select all the code and copy and paste this into the text editor from ImageJ/Fiji (File > New > Text Window). Alternatively, you can download all files via the green "Code" button as a ZIP file and extract the macro file. Save this file in your macros sub-folder within the ImageJ or Fiji folder with the name RandomDotsTo_Objects.ijm.
 
 ## Run macro
 
