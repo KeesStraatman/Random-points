@@ -17,6 +17,7 @@
 // 20/09/2021 Resolved a bug that caused the stack analysis to fail
 
 macro randomDotsTo_Objects{
+	requires("1.53j");
 	
 	// Set settings
 	run("Set Measurements...", "mean redirect=None decimal=3");
