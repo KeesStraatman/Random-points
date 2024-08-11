@@ -1,14 +1,14 @@
-# Creating random points and measure distance to objects of interest
+# Creating random dots/points and measure distance to objects of interest
 
-This macro will create random points in the binary image and measures the shortest distance of the points to objects of interest (value = 255), records mean distance per simulation off all points and only the points outside the objects of interest and prints this in a log file. It also will record how many points are inside the objects of interest. The macro assumes you have a binary image open and can handle single images and stacks.
+This macro will create random dots in the binary image and measures the shortest distance of the dots to objects of interest (value = 255), records mean distance per simulation off all dots and only the dots outside the objects of interest and prints this in a log file. It also will record how many dots are inside the objects of interest. The macro assumes you have a binary image open and can handle single images and stacks.
 
 The macro can be used to obtain an unbiased estimate of the proportion of each image that is occupied by the object of interest. However, see also the discussion "Generating random points and tallying proportion of points that fall within object" on the ImageJ mailing list (https://list.nih.gov/cgi-bin/wa.exe?A0=IMAGEJ).
 
-The user can set the number of repeats and the number of points randomly placed in the image. The user can also indicate if the points should be placed over the whole image or only outside the objects of interest.
+The user can set the number of repeats and the number of dots randomly placed in the image. The user can also indicate if the dots should be placed over the whole image or only outside the objects of interest.
 
-The name of the results table includes the name of the image, a unique number and the number of points used in the analysis. 
+The name of the results table includes the name of the image, a unique number and the number of dots used in the analysis. 
 
-As starting point I used the code published by Olivier Burri on the ImageJ mailing list (see above link) on 2 June 2014.
+As starting point, I used the code published by Olivier Burri on the ImageJ mailing list (see above link) on 2 June 2014.
 
 ## Download code
 
